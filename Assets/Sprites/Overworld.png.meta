@@ -199,7 +199,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Overworld_0
+      name: Grass
       rect:
         serializedVersion: 2
         x: 0
@@ -21495,7 +21495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_970
+      name: PlowableDirt
       rect:
         serializedVersion: 2
         x: 16
@@ -23776,7 +23776,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Overworld_0: -2671460228953875570
+      Grass: -2671460228953875570
       Overworld_1: -2689026045669087484
       Overworld_10: 1829778442542560619
       Overworld_100: -1409784115
@@ -24817,7 +24817,6 @@ TextureImporter:
       Overworld_968: 600763806
       Overworld_969: -2005210256
       Overworld_97: 1994169930
-      Overworld_970: -900492726
       Overworld_971: -2094507170
       Overworld_972: -997293790
       Overworld_973: 2054785811
@@ -24849,6 +24848,7 @@ TextureImporter:
       Overworld_997: -1443080645
       Overworld_998: 182381030
       Overworld_999: 298332395
+      PlowableDirt: -900492726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
