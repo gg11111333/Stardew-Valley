@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -6,6 +7,8 @@ public class ToolsCharacterController : MonoBehaviour
 {
     CharacterController2D character;
     Rigidbody2D rgbd2d;
+    ToolbarController toolbarController;
+    Animator animator; 
     [SerializeField] float offsetDistance = 1f;
     [SerializeField] float sizeOfInteractableArea = 1.2f;
     [SerializeField] MarkerManager markerManager;
@@ -20,6 +23,8 @@ public class ToolsCharacterController : MonoBehaviour
     {
         character = GetComponent<CharacterController2D>();
         rgbd2d = GetComponent<Rigidbody2D>();  
+        toolbarController = GetComponent<ToolbarController>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -27,7 +32,7 @@ public class ToolsCharacterController : MonoBehaviour
         SelectTile();
         CanSelectCheck();
         Marker();
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             if(UseToolWorld() == true)
             {
@@ -59,20 +64,16 @@ public class ToolsCharacterController : MonoBehaviour
 
     private bool UseToolWorld()
     {
-        Vector2 postion =  rgbd2d.position + character.lastMotionVector * offsetDistance;
+        Vector2 position =  rgbd2d.position + character.lastMotionVector * offsetDistance;
 
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(postion, sizeOfInteractableArea);
+        Item item = toolbarController.GetItem;
+        if(item == null){return false;}
+        if(item.onAction == null){return false;}
 
-        foreach(Collider2D c in colliders)
-        {
-            ToolHit hit = c.GetComponent<ToolHit>();
-            if (hit != null)
-            {
-                hit.Hit();
-                return true;
-            }  
-        }
-        return false;
+        animator.SetTrigger("act");
+        bool complete = item.onAction.OnApply(position);
+
+        return complete;
 
 
     }
