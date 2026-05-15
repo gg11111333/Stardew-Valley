@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64ea1e0654f40844bee0c7d5749127b, type: 3}
+  m_Name: Super Plow Action
+  m_EditorClassIdentifier: Assembly-CSharp::PlowTile
+  canPlow:
+  - {fileID: 11400000, guid: f8e2f6aedf16c66469c206d484f4ee77, type: 2}
+  - {fileID: 11400000, guid: 9485421577f02024fa6f53df3aa57552, type: 2}

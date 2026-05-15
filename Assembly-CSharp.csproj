@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\GUI\ItemToolbarPanel.cs" />
     <Compile Include="Assets\Scripts\ToolHIt.cs" />
     <Compile Include="Assets\Scripts\MarkerManager.cs" />
+    <Compile Include="Assets\SeedTile.cs" />
     <Compile Include="Assets\Scripts\InventoryController.cs" />
     <Compile Include="Assets\Scripts\GUI\InventoryButton.cs" />
     <Compile Include="Assets\Scripts\CropsManager.cs" />
@@ -74,8 +75,8 @@
     <Compile Include="Assets\Scripts\ItemSpawnManager.cs" />
     <Compile Include="Assets\Scripts\TileMapReadController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\TileData.cs" />
     <Compile Include="Assets\Scripts\GUI\InventoryPanel.cs" />
+    <Compile Include="Assets\PlowTile.cs" />
     <Compile Include="Assets\Scripts\DayTime.cs" />
     <Compile Include="Assets\Scripts\LootContainerInteract.cs" />
   </ItemGroup>

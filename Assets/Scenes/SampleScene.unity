@@ -2481,8 +2481,6 @@ MonoBehaviour:
   markerManager: {fileID: 1466355809}
   tileMapReadController: {fileID: 1645068495}
   maxDistance: 1.5
-  cropsManager: {fileID: 1645068496}
-  plowableTiles: {fileID: 11400000, guid: 6bd13bd33f76bd44ca0392d77b2a9a3c, type: 2}
 --- !u!114 &566765585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8363,9 +8361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TileMapReadController
   tilemap: {fileID: 1342062703}
-  tileDatas:
-  - {fileID: 11400000, guid: cdaddcee1ea20c3418a3a7c3e2290e56, type: 2}
-  - {fileID: 11400000, guid: 6bd13bd33f76bd44ca0392d77b2a9a3c, type: 2}
+  cropsManager: {fileID: 1645068496}
 --- !u!114 &1645068496
 MonoBehaviour:
   m_ObjectHideFlags: 0
