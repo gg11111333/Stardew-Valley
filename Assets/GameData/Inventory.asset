@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemContainer
   slots:
   - item: {fileID: 11400000, guid: bd3f0c14a192acf47ba264130b45d9fc, type: 2}
-    count: 131
-  - item: {fileID: 11400000, guid: d62ac7fda5626dc49b4b6c12ebcf3ce0, type: 2}
-    count: 1
-  - item: {fileID: 11400000, guid: e8b6ae5c653411448b97a6decdccce47, type: 2}
-    count: 1
-  - item: {fileID: 11400000, guid: 08f3edd0686ddec47b7d335150cbcf12, type: 2}
+    count: 42
+  - item: {fileID: 0}
     count: 0
-  - item: {fileID: 11400000, guid: 68636dc7a1bb5eb47ad211cf4f814865, type: 2}
+  - item: {fileID: 0}
     count: 0
-  - item: {fileID: 11400000, guid: c2632837e60bfef46b4ec309b1286c67, type: 2}
-    count: 93
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
   - item: {fileID: 0}
     count: 0
   - item: {fileID: 0}

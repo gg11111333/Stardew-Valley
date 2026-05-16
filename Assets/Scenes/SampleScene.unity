@@ -8214,6 +8214,7 @@ MonoBehaviour:
   player: {fileID: 566765577}
   inventoryContainer: {fileID: 11400000, guid: 5fa64e5e1731fc9468a608a5be28c55a, type: 2}
   dragAndDropController: {fileID: 1645068493}
+  timeController: {fileID: 1645068492}
 --- !u!4 &1645068490
 Transform:
   m_ObjectHideFlags: 0
@@ -8316,7 +8317,8 @@ MonoBehaviour:
     m_PostInfinity: 0
     m_RotationOrder: 4
   dayLightColor: {r: 1, g: 1, b: 1, a: 1}
-  timeScale: 6000
+  timeScale: 600
+  startAtTime: 28800
   text: {fileID: 1689800774}
   globalLight: {fileID: 557472371}
 --- !u!114 &1645068493
@@ -10385,11 +10387,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1637762963669068165, guid: 1e9bb0a0cd2f93940b1f3ff9def25899, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 0.8896
       objectReference: {fileID: 0}
     - target: {fileID: 1637762963669068165, guid: 1e9bb0a0cd2f93940b1f3ff9def25899, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 0.9722
       objectReference: {fileID: 0}
     - target: {fileID: 1637762963669068165, guid: 1e9bb0a0cd2f93940b1f3ff9def25899, type: 3}
       propertyPath: m_LocalScale.z
@@ -10397,11 +10399,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1637762963669068165, guid: 1e9bb0a0cd2f93940b1f3ff9def25899, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6551349
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 1637762963669068165, guid: 1e9bb0a0cd2f93940b1f3ff9def25899, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5432046
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 1637762963669068165, guid: 1e9bb0a0cd2f93940b1f3ff9def25899, type: 3}
       propertyPath: m_LocalPosition.z
