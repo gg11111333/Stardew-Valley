@@ -4271,7 +4271,7 @@ Transform:
   m_GameObject: {fileID: 907581537}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.01}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8379,6 +8379,7 @@ MonoBehaviour:
   plowed: {fileID: 11400000, guid: f6a115337eb142f458523223a57868f8, type: 2}
   seeded: {fileID: 11400000, guid: 3bf3306f15998b34c9cc1b45a9a465d7, type: 2}
   targetTilemap: {fileID: 907581540}
+  cropsSpritePrefab: {fileID: 1429665354731220759, guid: 4f12936268ea715479c8fff631ea3b67, type: 3}
 --- !u!114 &1647703452 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5604212252659570819, guid: e937cc7d90722064aa117142f0ca41e4, type: 3}
