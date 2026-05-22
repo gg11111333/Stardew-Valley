@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Crop
   timeToGrow: 20
   yield: {fileID: 11400000, guid: c2632837e60bfef46b4ec309b1286c67, type: 2}
-  count: 1
+  count: 5
   sprites:
   - {fileID: 2130832975, guid: 59f562985174dfd469933eb00d762287, type: 3}
   - {fileID: -3824459963188315723, guid: 59f562985174dfd469933eb00d762287, type: 3}
