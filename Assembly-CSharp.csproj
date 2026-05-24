@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\SeedTile.cs" />
     <Compile Include="Assets\Scripts\Data\Item.cs" />
     <Compile Include="Assets\Scripts\TilePickUpAction.cs" />
+    <Compile Include="Assets\CameraConfiner.cs" />
     <Compile Include="Assets\Scripts\GameSceneManager.cs" />
     <Compile Include="Assets\Scripts\GUI\ItemPanel.cs" />
     <Compile Include="Assets\Scripts\ToolsCharacterController.cs" />

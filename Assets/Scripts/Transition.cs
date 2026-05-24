@@ -23,17 +23,16 @@ public class Transition : MonoBehaviour
     }
 
     internal void InitiateTransition(Transform toTransition)
-
     {
-        Unity.Cinemachine.CinemachineBrain currentCamera = Camera.main.GetComponent<Unity.Cinemachine.CinemachineBrain>();
-        
-
-
+    
         switch (transitionType)
 
         {
 
             case TransitionType.Warp:
+                Unity.Cinemachine.CinemachineBrain currentCamera = 
+                    Camera.main.GetComponent<Unity.Cinemachine.CinemachineBrain>();
+
                 ((Unity.Cinemachine.CinemachineCamera)currentCamera.ActiveVirtualCamera).OnTargetObjectWarped(
                     toTransition,
                     targetPosition - toTransition.position
@@ -54,11 +53,6 @@ public class Transition : MonoBehaviour
                 break;
 
             case TransitionType.Scene:
-                ((Unity.Cinemachine.CinemachineCamera)currentCamera.ActiveVirtualCamera).OnTargetObjectWarped(
-                    toTransition,
-                    targetPosition - toTransition.position
-                    );
-
 
                 GameSceneManager.instance.InitSwitchScene(sceneNameToTransition, targetPosition);
 

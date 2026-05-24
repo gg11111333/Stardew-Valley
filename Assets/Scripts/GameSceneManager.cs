@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Unity.Cinemachine;
 
 public class GameSceneManager : MonoBehaviour
 {
@@ -13,7 +14,10 @@ public class GameSceneManager : MonoBehaviour
     }
 
     [SerializeField] ScreenTint screenTint;
+    [SerializeField] CameraConfiner cameraConfiner;
     string currentScene;
+    AsyncOperation unload;
+    AsyncOperation load;
 
     void Start()
     {
@@ -32,16 +36,31 @@ public class GameSceneManager : MonoBehaviour
 
         SwitchScene(to, targetPosition);
 
-        yield return new WaitForEndOfFrame();
-
+        while(load != null & unload != null)
+        {
+            if (load.isDone){load = null;}
+            if (load.isDone){unload = null;}
+            yield return new WaitForSeconds(0.1f);
+        }
+        
+        cameraConfiner.UpdateBounds();    
         screenTint.UnTint();
+        
     }
     public void SwitchScene(string to, Vector3 targetPosition)
     {
-        SceneManager.LoadScene(to, LoadSceneMode.Additive); 
-        SceneManager.UnloadSceneAsync(currentScene);
+        load = SceneManager.LoadSceneAsync(to, LoadSceneMode.Additive); 
+        unload = SceneManager.UnloadSceneAsync(currentScene);
         currentScene = to;
+
         Transform playerTransform = GameManager.instance.player.transform;
+
+        Unity.Cinemachine.CinemachineBrain currentCamera = Camera.main.GetComponent<CinemachineBrain>();
+        ((Unity.Cinemachine.CinemachineCamera)currentCamera.ActiveVirtualCamera).OnTargetObjectWarped(
+                    playerTransform,
+                    targetPosition - playerTransform.position
+                    );
+
         playerTransform.position = new Vector3(
             targetPosition.x,
             targetPosition.y,
