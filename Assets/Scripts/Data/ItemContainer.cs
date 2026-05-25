@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 [Serializable]
@@ -85,5 +86,28 @@ public class ItemContainer : ScriptableObject
                 itemSlot.Clear();
             }
         }
+    }
+
+    internal bool CheckFreeSpace()
+    {
+        for(int i = 0; i < slots.Count; i++)
+        {
+            if(slots[i].item == null)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    internal bool CheckItem(ItemSlot checkingItem)
+    {
+        ItemSlot itemSlot = slots.Find(x => x.item == checkingItem.item);
+
+        if(itemSlot == null){return false;}
+
+        if(checkingItem.item.stackable){return itemSlot.count >= checkingItem.count; }
+
+        return true;
     }
 }
