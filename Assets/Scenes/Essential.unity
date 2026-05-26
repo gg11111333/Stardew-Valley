@@ -2549,7 +2549,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 3.56
+  orthographic size: 3.16
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3875,7 +3875,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 3.56
+    OrthographicSize: 3.16
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -10388,6 +10388,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceaa5ec4ffaac8e47a5ac5a054bb662f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TileMapReadController
+  plowed: {fileID: 0}
+  seeded: {fileID: 0}
+  targetTilemap: {fileID: 0}
   tilemap: {fileID: 0}
   cropsManager: {fileID: 1645068496}
 --- !u!114 &1645068496
@@ -10402,10 +10405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9d73ecb16b7254b9535409bdbca925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  plowed: {fileID: 11400000, guid: f6a115337eb142f458523223a57868f8, type: 2}
-  seeded: {fileID: 11400000, guid: 3bf3306f15998b34c9cc1b45a9a465d7, type: 2}
-  targetTilemap: {fileID: 0}
-  cropsSpritePrefab: {fileID: 1429665354731220759, guid: 4f12936268ea715479c8fff631ea3b67, type: 3}
+  cropsManager: {fileID: 0}
 --- !u!114 &1645068497
 MonoBehaviour:
   m_ObjectHideFlags: 0
