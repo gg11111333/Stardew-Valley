@@ -49,6 +49,7 @@
     <Analyzer Include="E:\App\unity\unity\6000.4.3f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\TileMapCropsManager.cs" />
     <Compile Include="Assets\Scripts\TalkInteract.cs" />
     <Compile Include="Assets\PanelGrounp.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="Assets\Scripts\CharacterInteractController.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\ItemDragAndDropController.cs" />
+    <Compile Include="Assets\CropsContainer.cs" />
     <Compile Include="Assets\Scripts\TransitionArea.cs" />
     <Compile Include="Assets\Scripts\Actions\ResourceNode.cs" />
     <Compile Include="Assets\Scripts\Actions\ToolAction.cs" />

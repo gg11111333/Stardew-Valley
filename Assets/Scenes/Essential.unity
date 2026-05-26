@@ -10388,7 +10388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceaa5ec4ffaac8e47a5ac5a054bb662f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TileMapReadController
-  tilemap: {fileID: 1433796119}
+  tilemap: {fileID: 0}
   cropsManager: {fileID: 1645068496}
 --- !u!114 &1645068496
 MonoBehaviour:

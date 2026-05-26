@@ -28,6 +28,7 @@ public class GameSceneManager : MonoBehaviour
     {
         StartCoroutine(Transition(to, targetPosition)); 
     }
+
     IEnumerator Transition(string to, Vector3 targetPosition)
     {
         screenTint.Tint();
@@ -39,7 +40,7 @@ public class GameSceneManager : MonoBehaviour
         while(load != null & unload != null)
         {
             if (load.isDone){load = null;}
-            if (load.isDone){unload = null;}
+            if (unload.isDone){unload = null;}
             yield return new WaitForSeconds(0.1f);
         }
         
