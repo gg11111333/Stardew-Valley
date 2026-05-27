@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemContainer
   slots:
   - item: {fileID: 11400000, guid: bd3f0c14a192acf47ba264130b45d9fc, type: 2}
-    count: 77
+    count: 82
   - item: {fileID: 11400000, guid: e8b6ae5c653411448b97a6decdccce47, type: 2}
     count: 0
   - item: {fileID: 11400000, guid: 08f3edd0686ddec47b7d335150cbcf12, type: 2}
@@ -25,6 +25,8 @@ MonoBehaviour:
     count: 0
   - item: {fileID: 11400000, guid: c2632837e60bfef46b4ec309b1286c67, type: 2}
     count: 973
+  - item: {fileID: 11400000, guid: 0fdd3648b86860448b6542665aad45d8, type: 2}
+    count: 3
   - item: {fileID: 0}
     count: 0
   - item: {fileID: 0}
@@ -83,5 +85,4 @@ MonoBehaviour:
     count: 0
   - item: {fileID: 0}
     count: 0
-  - item: {fileID: 0}
-    count: 0
+  isDirty: 0

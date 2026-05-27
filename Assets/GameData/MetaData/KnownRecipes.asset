@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RecipeList
   recipes:
   - {fileID: 11400000, guid: 4da064bc032c76644929ebabc77d69f4, type: 2}
+  - {fileID: 11400000, guid: 56fdfc5ac00a50e4f9d3ab2b4d1c7a07, type: 2}

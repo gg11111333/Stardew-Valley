@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlowTile
   canPlow:
   - {fileID: 11400000, guid: 9485421577f02024fa6f53df3aa57552, type: 2}
+  onPlowUsed: {fileID: 8300000, guid: 057e3df5e83f6054ebc5ac796b4012eb, type: 3}
