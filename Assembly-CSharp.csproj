@@ -71,11 +71,13 @@
     <Compile Include="Assets\Scripts\Crop.cs" />
     <Compile Include="Assets\Scripts\DialogueContainer.cs" />
     <Compile Include="Assets\Scripts\GUI\ItemToolbarPanel.cs" />
+    <Compile Include="Assets\PlaceableObjectsReferenceManager.cs" />
     <Compile Include="Assets\Scripts\DayTimeController.cs" />
     <Compile Include="Assets\Scripts\ToolHIt.cs" />
     <Compile Include="Assets\Scripts\MarkerManager.cs" />
     <Compile Include="Assets\Scripts\CropsContainer.cs" />
     <Compile Include="Assets\Scripts\RecipeList.cs" />
+    <Compile Include="Assets\PlaceObject.cs" />
     <Compile Include="Assets\Scripts\InventoryController.cs" />
     <Compile Include="Assets\Scripts\GUI\InventoryButton.cs" />
     <Compile Include="Assets\Scripts\TimeAgent.cs" />
@@ -91,6 +93,7 @@
     <Compile Include="Assets\Scripts\TilePickUpAction.cs" />
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\GameSceneManager.cs" />
+    <Compile Include="Assets\PleaceableObjectsManager.cs" />
     <Compile Include="Assets\Scripts\GUI\ItemPanel.cs" />
     <Compile Include="Assets\Scripts\ToolsCharacterController.cs" />
     <Compile Include="Assets\Scripts\ItemSpawnManager.cs" />
@@ -98,6 +101,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Actor.cs" />
     <Compile Include="Assets\Scripts\PanelGrounp.cs" />
+    <Compile Include="Assets\PlaceableObjectsContainer.cs" />
     <Compile Include="Assets\Scripts\GUI\InventoryPanel.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\LootContainerInteract.cs" />

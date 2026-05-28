@@ -10456,6 +10456,7 @@ GameObject:
   - component: {fileID: 1645068495}
   - component: {fileID: 1645068496}
   - component: {fileID: 1645068497}
+  - component: {fileID: 1645068498}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -10480,6 +10481,7 @@ MonoBehaviour:
   dragAndDropController: {fileID: 1645068493}
   timeController: {fileID: 1645068492}
   dialogueSystem: {fileID: 520158834}
+  placeableObjects: {fileID: 0}
 --- !u!4 &1645068490
 Transform:
   m_ObjectHideFlags: 0
@@ -10632,6 +10634,7 @@ MonoBehaviour:
   targetTilemap: {fileID: 0}
   tilemap: {fileID: 0}
   cropsManager: {fileID: 1645068496}
+  objectsManager: {fileID: 1645068498}
 --- !u!114 &1645068496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10659,6 +10662,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameSceneManager
   screenTint: {fileID: 884485827}
   cameraConfiner: {fileID: 670077432}
+--- !u!114 &1645068498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645068488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e06d0b5b4f72046b6b49b464f968b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  placeableObjectsManager: {fileID: 0}
 --- !u!114 &1647703452 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5604212252659570819, guid: e937cc7d90722064aa117142f0ca41e4, type: 3}
