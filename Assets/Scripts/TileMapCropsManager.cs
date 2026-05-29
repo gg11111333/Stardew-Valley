@@ -11,7 +11,7 @@ public class TileMapCropsManager : TimeAgent
     [SerializeField] GameObject cropsSpritePrefab;
     [SerializeField] CropsContainer container;
 
-    private void Start()
+    private void Start()    
     {
         GameManager.instance.GetComponent<CropsManager>().cropsManager = this;
         targetTilemap = GetComponent<Tilemap>();

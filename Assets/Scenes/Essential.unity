@@ -4842,6 +4842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   itemContainerPanel: {fileID: 509134034}
+  maxDistance: 2
 --- !u!114 &579358916 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7660045839509990974, guid: e937cc7d90722064aa117142f0ca41e4, type: 3}
