@@ -2297,6 +2297,10 @@ PrefabInstance:
       propertyPath: openedChest
       value: 
       objectReference: {fileID: 321556755}
+    - target: {fileID: 8980116880058290259, guid: 60e76d5854ba98c4fab3dbae74058222, type: 3}
+      propertyPath: itemContainer
+      value: 
+      objectReference: {fileID: 11400000, guid: b412b4e3de0b02c4fad17af67b75023c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

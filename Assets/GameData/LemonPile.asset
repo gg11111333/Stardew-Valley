@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   Name: Lemon pile
   stackable: 0
-  icon: {fileID: 762498665375902189, guid: f81db274d8bf07e4285a13e7ea909b83, type: 3}
+  icon: {fileID: -4456543309196218959, guid: 525c5c87dfd86ba4fadfa73c645209b9, type: 3}
   onAction: {fileID: 0}
   onTileMapAction: {fileID: 0}
   onItemUsed: {fileID: 0}
   crop: {fileID: 0}
+  iconHighlight: 0
+  itemPrefab: {fileID: 0}

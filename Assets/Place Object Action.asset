@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a1617a11cdb8d374abbe77e220f461dd, type: 3}
-  m_Name: New Place Object
+  m_Name: Place Object Action
   m_EditorClassIdentifier: Assembly-CSharp::PlaceObject
