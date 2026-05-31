@@ -49,7 +49,6 @@
     <Analyzer Include="E:\App\unity\unity\6000.4.3f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\IconHighlight.cs" />
     <Compile Include="Assets\Scripts\RecipePanel.cs" />
     <Compile Include="Assets\Scripts\TalkInteract.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
@@ -59,13 +58,12 @@
     <Compile Include="Assets\Scripts\CharacterInteractController.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\ItemDragAndDropController.cs" />
+    <Compile Include="Assets\Scripts\ItemContainerInteractController.cs" />
     <Compile Include="Assets\Scripts\TransitionArea.cs" />
     <Compile Include="Assets\Scripts\Actions\ResourceNode.cs" />
     <Compile Include="Assets\Scripts\Actions\ToolAction.cs" />
-    <Compile Include="Assets\ItemContainerInteractController.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
-    <Compile Include="Assets\ItemContainerPanel.cs" />
     <Compile Include="Assets\Scripts\HighlightController.cs" />
     <Compile Include="Assets\Scripts\PlaceableObjectsReferenceManager.cs" />
     <Compile Include="Assets\Scripts\TileMapCropsManager.cs" />
@@ -76,12 +74,14 @@
     <Compile Include="Assets\Scripts\PlaceableObjectsContainer.cs" />
     <Compile Include="Assets\Scripts\GUI\ItemToolbarPanel.cs" />
     <Compile Include="Assets\Scripts\DayTimeController.cs" />
+    <Compile Include="Assets\ItemConverterInteract.cs" />
     <Compile Include="Assets\Scripts\ToolHIt.cs" />
     <Compile Include="Assets\Scripts\PleaceableObjectsManager.cs" />
     <Compile Include="Assets\Scripts\MarkerManager.cs" />
     <Compile Include="Assets\Scripts\CropsContainer.cs" />
     <Compile Include="Assets\Scripts\RecipeList.cs" />
     <Compile Include="Assets\Scripts\Actions\PlaceObject.cs" />
+    <Compile Include="Assets\Scripts\ItemContainerPanel.cs" />
     <Compile Include="Assets\Scripts\InventoryController.cs" />
     <Compile Include="Assets\Scripts\GUI\InventoryButton.cs" />
     <Compile Include="Assets\Scripts\TimeAgent.cs" />
@@ -96,6 +96,7 @@
     <Compile Include="Assets\Scripts\Data\Item.cs" />
     <Compile Include="Assets\Scripts\TilePickUpAction.cs" />
     <Compile Include="Assets\Scripts\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\IconHighlight.cs" />
     <Compile Include="Assets\Scripts\GameSceneManager.cs" />
     <Compile Include="Assets\Scripts\GUI\ItemPanel.cs" />
     <Compile Include="Assets\Scripts\ToolsCharacterController.cs" />
