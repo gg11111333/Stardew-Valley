@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8aeb8a7b647ecf4f880b06e825ea2a5, type: 3}
   m_Name: MainScene Objects Container
   m_EditorClassIdentifier: Assembly-CSharp::PleaceableObjectsContainer
-  placeableObjects: []
+  placeableObjects:
+  - placedItem: {fileID: 11400000, guid: ee3cac5957177c041a9c5f842d2589de, type: 2}
+    targetObject: {fileID: 0}
+    positionOnGrid: {x: 0, y: 0, z: 0}
+    objectState: 
+  - placedItem: {fileID: 11400000, guid: ee3cac5957177c041a9c5f842d2589de, type: 2}
+    targetObject: {fileID: 0}
+    positionOnGrid: {x: 0, y: 0, z: 0}
+    objectState: 

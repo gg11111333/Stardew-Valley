@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0153, y: 0.0387, z: -0.11}
-  m_LocalScale: {x: 3.1129122, y: 2.0564806, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5781706143536910868}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4170713456330320077, guid: 6a4f1dc5cbe831e4c8b87e647d3dc6be, type: 3}
+  m_Sprite: {fileID: -7750266274221971817, guid: 37d5983529fe36541bb925dc67a50da6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,6 +101,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5781706143536910868}
   - component: {fileID: 2189716316736571763}
+  - component: {fileID: 5246838602404967273}
+  - component: {fileID: 8032234689197222302}
   m_Layer: 0
   m_Name: Smelter
   m_TagString: Untagged
@@ -117,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 6337441176078601232}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.52, y: 0.47, z: 0}
+  m_LocalPosition: {x: -3.08, y: 0.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -170,3 +172,41 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
+--- !u!114 &5246838602404967273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6337441176078601232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5196bc35c2182e4bab0395308452a98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemConverterInteract
+  convertableItem: {fileID: 11400000, guid: 303f539f9a93e454891b6f49654f677e, type: 2}
+  productedItem: {fileID: 11400000, guid: 871256b8a8b667c478a8f3ebe3a76077, type: 2}
+  productedItemCount: 1
+  timeToProcess: 3
+--- !u!95 &8032234689197222302
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6337441176078601232}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cf26c1fe34c9bef4bb6473fe908328e6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

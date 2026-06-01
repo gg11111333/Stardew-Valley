@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Data\ItemContainer.cs" />
     <Compile Include="Assets\Scripts\Crop.cs" />
     <Compile Include="Assets\Scripts\DialogueContainer.cs" />
+    <Compile Include="Assets\IPersistant.cs" />
     <Compile Include="Assets\Scripts\PlaceableObjectsContainer.cs" />
     <Compile Include="Assets\Scripts\GUI\ItemToolbarPanel.cs" />
     <Compile Include="Assets\Scripts\DayTimeController.cs" />
