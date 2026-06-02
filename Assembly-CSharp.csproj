@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\ToolHIt.cs" />
     <Compile Include="Assets\Scripts\PleaceableObjectsManager.cs" />
     <Compile Include="Assets\Scripts\MarkerManager.cs" />
+    <Compile Include="Assets\StatusBar.cs" />
     <Compile Include="Assets\Scripts\CropsContainer.cs" />
     <Compile Include="Assets\Scripts\RecipeList.cs" />
     <Compile Include="Assets\Scripts\Actions\PlaceObject.cs" />
