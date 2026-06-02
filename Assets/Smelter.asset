@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   Name: Smelter
   stackable: 0
-  icon: {fileID: 4451049999630537686, guid: 996e17adf8b79ad4dbb19ca8bb7ad725, type: 3}
+  icon: {fileID: -7750266274221971817, guid: 37d5983529fe36541bb925dc67a50da6, type: 3}
   onAction: {fileID: 0}
   onTileMapAction: {fileID: 11400000, guid: 5a3dc846b75e929459d1ffab8de7fa2b, type: 2}
   onItemUsed: {fileID: 11400000, guid: 5a3dc846b75e929459d1ffab8de7fa2b, type: 2}

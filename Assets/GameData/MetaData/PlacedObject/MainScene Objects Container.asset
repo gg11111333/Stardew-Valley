@@ -17,7 +17,3 @@ MonoBehaviour:
     targetObject: {fileID: 0}
     positionOnGrid: {x: 0, y: 0, z: 0}
     objectState: 
-  - placedItem: {fileID: 11400000, guid: ee3cac5957177c041a9c5f842d2589de, type: 2}
-    targetObject: {fileID: 0}
-    positionOnGrid: {x: 0, y: 0, z: 0}
-    objectState: 

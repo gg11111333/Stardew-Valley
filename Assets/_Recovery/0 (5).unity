@@ -4802,7 +4802,7 @@ MonoBehaviour:
   panel: {fileID: 858232374}
   statusPanel: {fileID: 1727132434}
   toolbarPanel: {fileID: 1026272954}
-  additionalPanel: {fileID: 509134032}
+  additionalPanel: {fileID: 0}
 --- !u!114 &566765588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8245,7 +8245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &884485826
 RectTransform:
   m_ObjectHideFlags: 0
