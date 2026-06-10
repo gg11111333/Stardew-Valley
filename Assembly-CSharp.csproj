@@ -56,30 +56,31 @@
     <Compile Include="Assets\Scripts\ToolbarController.cs" />
     <Compile Include="Assets\Scripts\Crafting.cs" />
     <Compile Include="Assets\Scripts\CharacterInteractController.cs" />
+    <Compile Include="Assets\Scripts\ItemConverterInteract.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\ItemDragAndDropController.cs" />
+    <Compile Include="Assets\Scripts\StatusBar.cs" />
     <Compile Include="Assets\Scripts\ItemContainerInteractController.cs" />
     <Compile Include="Assets\Scripts\TransitionArea.cs" />
     <Compile Include="Assets\Scripts\Actions\ResourceNode.cs" />
     <Compile Include="Assets\Scripts\Actions\ToolAction.cs" />
+    <Compile Include="Assets\Scripts\Data\ItemList.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\HighlightController.cs" />
     <Compile Include="Assets\Scripts\PlaceableObjectsReferenceManager.cs" />
     <Compile Include="Assets\Scripts\TileMapCropsManager.cs" />
+    <Compile Include="Assets\DoorOpenClose.cs" />
     <Compile Include="Assets\Scripts\CameraConfiner.cs" />
     <Compile Include="Assets\Scripts\Data\ItemContainer.cs" />
     <Compile Include="Assets\Scripts\Crop.cs" />
     <Compile Include="Assets\Scripts\DialogueContainer.cs" />
-    <Compile Include="Assets\IPersistant.cs" />
     <Compile Include="Assets\Scripts\PlaceableObjectsContainer.cs" />
     <Compile Include="Assets\Scripts\GUI\ItemToolbarPanel.cs" />
     <Compile Include="Assets\Scripts\DayTimeController.cs" />
-    <Compile Include="Assets\ItemConverterInteract.cs" />
     <Compile Include="Assets\Scripts\ToolHIt.cs" />
     <Compile Include="Assets\Scripts\PleaceableObjectsManager.cs" />
     <Compile Include="Assets\Scripts\MarkerManager.cs" />
-    <Compile Include="Assets\StatusBar.cs" />
     <Compile Include="Assets\Scripts\CropsContainer.cs" />
     <Compile Include="Assets\Scripts\RecipeList.cs" />
     <Compile Include="Assets\Scripts\Actions\PlaceObject.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\Scripts\GUI\ItemPanel.cs" />
     <Compile Include="Assets\Scripts\ToolsCharacterController.cs" />
     <Compile Include="Assets\Scripts\ItemSpawnManager.cs" />
+    <Compile Include="Assets\ZDepth.cs" />
     <Compile Include="Assets\Scripts\TileMapReadController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Actor.cs" />
@@ -110,6 +112,7 @@
     <Compile Include="Assets\Scripts\GUI\InventoryPanel.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\LootContainerInteract.cs" />
+    <Compile Include="Assets\Scripts\IPersistant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

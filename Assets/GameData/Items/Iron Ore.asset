@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 414fd53898367fc4eb63a6f39f237f38, type: 3}
-  m_Name: Seeds
+  m_Name: Iron Ore
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  Name: Seeds
+  Name: Iron Ore
+  id: 3
   stackable: 1
-  icon: {fileID: 21300000, guid: 42eb39e824bead74fb51c984d0031120, type: 3}
+  icon: {fileID: -3148361131062559452, guid: 14aa375a682c41e43ad314253636da08, type: 3}
   onAction: {fileID: 0}
-  onTileMapAction: {fileID: 11400000, guid: 295ce3778f7d11846a39b0020b09286d, type: 2}
-  onItemUsed: {fileID: 11400000, guid: 295ce3778f7d11846a39b0020b09286d, type: 2}
-  crop: {fileID: 11400000, guid: 7977096d92023ba4d95785adeb96d305, type: 2}
+  onTileMapAction: {fileID: 0}
+  onItemUsed: {fileID: 0}
+  crop: {fileID: 0}
+  iconHighlight: 0
+  itemPrefab: {fileID: 0}

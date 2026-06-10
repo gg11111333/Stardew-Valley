@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Unity.Cinemachine;
+using UnityEngine.XR;
+using UnityEditor; 
 
 public enum TransitionType
 {
@@ -14,10 +16,19 @@ public class Transition : MonoBehaviour
     [SerializeField] TransitionType transitionType;
     [SerializeField] string sceneNameToTransition;
     [SerializeField] Vector3 targetPosition;
-    Transform destination;
+    [SerializeField] Collider2D confiner;
+
+    CameraConfiner cameraconfiner;
+    [SerializeField]    Transform destination;
 
     void Start()
     {
+        if(confiner != null)
+        {
+            cameraconfiner = FindObjectOfType<CameraConfiner>();
+            
+        }
+
         destination = transform.GetChild(1);
 
     }
@@ -32,6 +43,13 @@ public class Transition : MonoBehaviour
             case TransitionType.Warp:
                 Unity.Cinemachine.CinemachineBrain currentCamera = 
                     Camera.main.GetComponent<Unity.Cinemachine.CinemachineBrain>();
+                
+                if(cameraconfiner != null)
+                {
+
+                    cameraconfiner.UpdateBounds(confiner);
+                }
+
 
                 ((Unity.Cinemachine.CinemachineCamera)currentCamera.ActiveVirtualCamera).OnTargetObjectWarped(
                     toTransition,
@@ -57,12 +75,9 @@ public class Transition : MonoBehaviour
                 GameSceneManager.instance.InitSwitchScene(sceneNameToTransition, targetPosition);
 
                 break;  
-
         }
-
-   
-
     }
+
 
 } 
 

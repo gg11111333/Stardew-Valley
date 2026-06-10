@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5250829760956302421}
   - component: {fileID: 6146655428583551294}
   - component: {fileID: 8980116880058290259}
+  - component: {fileID: -4230684935734465693}
   m_Layer: 0
   m_Name: ChestObject
   m_TagString: Untagged
@@ -97,7 +98,19 @@ MonoBehaviour:
   openedChest: {fileID: 7240228159256150926}
   opened: 0
   onOpenAudio: {fileID: 0}
-  itemContainer: {fileID: 11400000, guid: b412b4e3de0b02c4fad17af67b75023c, type: 2}
+  itemContainer: {fileID: 0}
+--- !u!114 &-4230684935734465693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212874272679337618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e81a7bdbe24ca4bb4df8315c04fa7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZDepth
 --- !u!1 &7240228159256150926
 GameObject:
   m_ObjectHideFlags: 0

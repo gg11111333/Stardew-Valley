@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Lemon
   m_EditorClassIdentifier: Assembly-CSharp::Item
   Name: Lemon
+  id: 7
   stackable: 1
   icon: {fileID: 762498665375902189, guid: f81db274d8bf07e4285a13e7ea909b83, type: 3}
   onAction: {fileID: 0}

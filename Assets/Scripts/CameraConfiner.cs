@@ -1,5 +1,7 @@
+using System;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 public class CameraConfiner : MonoBehaviour
 {
@@ -20,5 +22,10 @@ public class CameraConfiner : MonoBehaviour
         }
         Collider2D bounds = go.GetComponent<Collider2D>();
         confiner.BoundingShape2D = bounds;
+    }
+
+    internal void UpdateBounds(Collider2D confiner)
+    {
+        this.confiner.BoundingShape2D = confiner;
     }
 }

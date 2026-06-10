@@ -32,7 +32,7 @@ public class PlaceableObjectsManager : MonoBehaviour
 
 
 
-    private void Oestroy()
+    private void OnDestroy()
 
     {
 

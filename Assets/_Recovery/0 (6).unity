@@ -4130,7 +4130,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 1.07, z: -9.07}
+  m_LocalPosition: {x: -0.05, y: 0.5, z: -10}
   m_LocalScale: {x: 1.01, y: 0.98, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4730,7 +4730,6 @@ GameObject:
   - component: {fileID: 566765588}
   - component: {fileID: 566765589}
   - component: {fileID: 566765590}
-  - component: {fileID: 566765591}
   m_Layer: 0
   m_Name: MainCharacter
   m_TagString: Player
@@ -4807,7 +4806,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5199717756987311446, guid: a486eb31da76feb4f97768961c0a296f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4828,7 +4827,7 @@ Transform:
   m_GameObject: {fileID: 566765577}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 1.07, z: 0.93}
+  m_LocalPosition: {x: -0.05, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4929,7 +4928,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566765577}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e66d1551af866ba4da8835e183f5bdad, type: 3}
   m_Name: 
@@ -5035,18 +5034,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   itemContainerPanel: {fileID: 509134034}
   maxDistance: 2
---- !u!114 &566765591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566765577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e81a7bdbe24ca4bb4df8315c04fa7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZDepth
 --- !u!114 &579358916 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7660045839509990974, guid: e937cc7d90722064aa117142f0ca41e4, type: 3}
@@ -5700,7 +5687,7 @@ Transform:
   m_GameObject: {fileID: 670077428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 1.07, z: -9.07}
+  m_LocalPosition: {x: -0.05, y: 0.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
