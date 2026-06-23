@@ -22,9 +22,9 @@ MonoBehaviour:
   - item: {fileID: 0}
     count: 0
   - item: {fileID: 11400000, guid: 68636dc7a1bb5eb47ad211cf4f814865, type: 2}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
+    count: 1
+  - item: {fileID: 11400000, guid: c2632837e60bfef46b4ec309b1286c67, type: 2}
+    count: 99
   - item: {fileID: 0}
     count: 0
   - item: {fileID: 0}

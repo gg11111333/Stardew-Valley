@@ -15,3 +15,4 @@ MonoBehaviour:
   canPlow:
   - {fileID: 11400000, guid: f8e2f6aedf16c66469c206d484f4ee77, type: 2}
   - {fileID: 11400000, guid: 9485421577f02024fa6f53df3aa57552, type: 2}
+  onPlowUsed: {fileID: 0}
