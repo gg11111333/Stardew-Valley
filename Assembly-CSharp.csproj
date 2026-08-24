@@ -43,7 +43,7 @@
     <UnityVersion>6000.4.3f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\PC\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.2.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\PC\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.3.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="E:\App\unity\unity\6000.4.3f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\App\unity\unity\6000.4.3f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="E:\App\unity\unity\6000.4.3f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\CharacterInteractController.cs" />
     <Compile Include="Assets\Scripts\ItemConverterInteract.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
+    <Compile Include="Assets\Idemagical.cs" />
     <Compile Include="Assets\Scripts\ItemDragAndDropController.cs" />
     <Compile Include="Assets\Scripts\StatusBar.cs" />
     <Compile Include="Assets\Scripts\ItemContainerInteractController.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\HighlightController.cs" />
+    <Compile Include="Assets\BreakableObject.cs" />
     <Compile Include="Assets\Scripts\PlaceableObjectsReferenceManager.cs" />
     <Compile Include="Assets\Scripts\TileMapCropsManager.cs" />
     <Compile Include="Assets\DoorOpenClose.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="Assets\Scripts\Actions\PlaceObject.cs" />
     <Compile Include="Assets\Scripts\ItemContainerPanel.cs" />
     <Compile Include="Assets\Scripts\InventoryController.cs" />
+    <Compile Include="Assets\Damageable.cs" />
     <Compile Include="Assets\Scripts\GUI\InventoryButton.cs" />
     <Compile Include="Assets\Scripts\TimeAgent.cs" />
     <Compile Include="Assets\Scripts\CropsManager.cs" />
@@ -94,6 +97,7 @@
     <Compile Include="Assets\Scripts\Transition.cs" />
     <Compile Include="Assets\Scripts\PlowTile.cs" />
     <Compile Include="Assets\Scripts\CraftingRecipe.cs" />
+    <Compile Include="Assets\OnScreenMessageSystem.cs" />
     <Compile Include="Assets\Scripts\Actions\GatherResourceNode.cs" />
     <Compile Include="Assets\Scripts\SeedTile.cs" />
     <Compile Include="Assets\Scripts\Data\Item.cs" />
@@ -109,6 +113,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Actor.cs" />
     <Compile Include="Assets\Scripts\PanelGrounp.cs" />
+    <Compile Include="Assets\AttackController.cs" />
     <Compile Include="Assets\Scripts\GUI\InventoryPanel.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\LootContainerInteract.cs" />

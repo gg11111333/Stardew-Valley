@@ -1299,13 +1299,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_70
+      name: EvilPlant
       rect:
         serializedVersion: 2
         x: 512
-        y: 544
-        width: 16
-        height: 16
+        y: 530
+        width: 14
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,28 +1932,6 @@ TextureImporter:
       bones: []
       spriteID: 9f8e5302ae6961f4aadfa42384994e97
       internalID: -497234083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Overworld_109
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 528
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 628fb105ba15af240a275cf5f7295fe5
-      internalID: 147114962
       vertices: []
       indices: 
       edges: []
@@ -22610,6 +22588,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      EvilPlant: 835121784
       Grass: -2671460228953875570
       House1: 909975956
       Overworld_1: -2689026045669087484
@@ -23331,7 +23310,6 @@ TextureImporter:
       Overworld_698: -1764334114
       Overworld_699: -1324973827
       Overworld_7: -5552291726514319404
-      Overworld_70: 835121784
       Overworld_700: -7852263
       Overworld_701: 1814754339
       Overworld_702: 1412795603
